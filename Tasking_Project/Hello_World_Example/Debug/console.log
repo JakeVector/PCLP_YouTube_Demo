@@ -1,0 +1,38 @@
+
+**** Build of configuration PC-lint Plus for project Hello_World_Example ****
+
+"C:\\PCLint\\pclp25\\pclp\\pclp64.exe" "-i\"D:\\Users\\JColapietro\\YouTube\\PCLP_series\\PCLP_project\\Tasking_Project\\Hello_World_Example\\lint\"" eclipse.lnt co-gcc.lnt "D:\\Users\\JColapietro\\YouTube\\PCLP_series\\PCLP_project\\Tasking_Project\\Hello_World_Example\\Hello_World_Example.cpp" 
+PC-lint Plus 2025 Beta 2 for Windows, Copyright Vector Informatik GmbH 1985-2024
+licensed to Vector Internal
+23-dec-2025, license expires 31-dec-2025 (9 days)
+
+--- Module:   D:\Users\JColapietro\YouTube\PCLP_series\PCLP_project\Tasking_Project\Hello_World_Example\Hello_World_Example.cpp (C++)
+C:\MinGW\13.3.0\mingw64\include\c++\13.3.0\bits\new_allocator.h:147: error: error 6071: call to '__builtin_operator_new' selects non-usual allocation function
+            return static_cast<_Tp*>(_GLIBCXX_OPERATOR_NEW(__n * sizeof(_Tp),
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\MinGW\13.3.0\mingw64\include\c++\13.3.0\bits\new_allocator.h:116: supplemental: supplemental 893: expanded from macro '_GLIBCXX_OPERATOR_NEW'
+# define _GLIBCXX_OPERATOR_NEW __builtin_operator_new
+                               ^
+C:\MinGW\13.3.0\mingw64\include\c++\13.3.0\new:149: supplemental: supplemental 891: non-usual 'operator new' declared here
+_GLIBCXX_NODISCARD void* operator new(std::size_t, std::align_val_t)
+                   ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Users\JColapietro\YouTube\PCLP_series\PCLP_project\Tasking_Project\Hello_World_Example\Hello_World_Example.cpp:14: warning: warning 438: last value assigned to 'num' not used
+        return 0;
+        ^
+D:\Users\JColapietro\YouTube\PCLP_series\PCLP_project\Tasking_Project\Hello_World_Example\Hello_World_Example.cpp:12: supplemental: supplemental 891: previous assignment is here
+        int num = 0;
+            ^
+D:\Users\JColapietro\YouTube\PCLP_series\PCLP_project\Tasking_Project\Hello_World_Example\Hello_World_Example.cpp:12: warning: warning 529: local variable 'num' declared in 'main' not subsequently referenced
+        int num = 0;
+            ^
+--- Module Wrap-up
+--- Global Wrap-up
+
+--- Module:   D:\Users\JColapietro\YouTube\PCLP_series\PCLP_project\Tasking_Project\Hello_World_Example\Hello_World_Example.cpp (C++)
+
+--- Thread messages
+
+Time consumed: 1822 ms
+**** End of build ****
+
+Tool info: 

@@ -1,0 +1,27 @@
+function: main, type: finite, auto usage: 378, total usage: 570, callee: Manager::PlaceOrder 
+function: TableDataType::TableDataType, type: external, auto usage: 0, total usage: 32, callee: (no function) external
+function: TableDataType::operator=, type: external, auto usage: 0, total usage: 32, callee: (no function) external
+function: Manager::ClearTable, type: finite, auto usage: 12, total usage: 40, callee: DataBase::DeleteRecord 
+function: Manager::PlaceOrder, type: finite, auto usage: 140, total usage: 192, callee: DataBase::GetTableRecord 
+function: Manager::GetCheckTotal, type: finite, auto usage: 116, total usage: 168, callee: DataBase::GetTableRecord 
+function: Manager::AddIncludedDessert, type: finite, auto usage: 8, total usage: 8, callee: (no function) 
+function: Manager::AddPartyToWaitingList, type: finite, auto usage: 12, total usage: 12, callee: (no function) 
+function: Manager::GetNextPartyToBeSeated, type: finite, auto usage: 0, total usage: 0, callee: (no function) 
+function: Manager::Manager, type: finite, auto usage: 0, total usage: 0, callee: (no function) 
+function: DataBase::DeleteRecord, type: finite, auto usage: 12, total usage: 28, callee: DataBase::DeleteOneRecord 
+function: DataBase::GetTableRecord, type: finite, auto usage: 20, total usage: 52, callee: TableDataType::operator= 
+function: DataBase::DeleteOneRecord, type: finite, auto usage: 16, total usage: 16, callee: (no function) 
+function: DataBase::DeleteAllRecords, type: finite, auto usage: 24, total usage: 40, callee: DataBase::DeleteOneRecord 
+function: DataBase::DeleteTableRecord, type: finite, auto usage: 16, total usage: 32, callee: DataBase::DeleteOneRecord 
+function: DataBase::UpdateTableRecord, type: finite, auto usage: 20, total usage: 52, callee: TableDataType::operator= 
+function: DataBase::DataBase, type: finite, auto usage: 0, total usage: 0, callee: (no function) 
+function: DataBase::~DataBase, type: finite, auto usage: 0, total usage: 0, callee: (no function) 
+function: WhiteBox::Initialize, type: finite, auto usage: 8, total usage: 12, callee: WhiteBox::InitDay 
+function: WhiteBox::InitDay, type: finite, auto usage: 4, total usage: 4, callee: (no function) 
+function: WhiteBox::InitColor, type: finite, auto usage: 4, total usage: 4, callee: (no function) 
+function: WhiteBox::WhiteBox, type: finite, auto usage: 0, total usage: 0, callee: (no function) 
+function: OrderType::OrderType, type: external, auto usage: 0, total usage: 32, callee: (no function) external
+function: OrderType::OrderType, type: external, auto usage: 0, total usage: 32, callee: (no function) external
+function: OrderType::operator=, type: external, auto usage: 0, total usage: 32, callee: (no function) external
+function: printf, type: external, auto usage: 0, total usage: 32, callee: (no function) external
+function: scanf, type: external, auto usage: 0, total usage: 32, callee: (no function) external

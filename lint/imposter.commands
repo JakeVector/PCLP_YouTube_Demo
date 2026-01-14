@@ -1,0 +1,5 @@
+['-isystem','C:/libs/boost_1_75_0','-IC:/VCAST/2025sp5/tutorial/cpp','-O2','-g','-std=gnu++17','-Wno-unused-variable','-Wno-unused-parameter','-Wno-missing-field-initializers','-funsigned-char','-c','database.cpp','-o','build/obj/./database.o']
+['-isystem','C:/libs/boost_1_75_0','-IC:/VCAST/2025sp5/tutorial/cpp','-O2','-g','-std=gnu++17','-Wno-unused-variable','-Wno-unused-parameter','-Wno-missing-field-initializers','-funsigned-char','-c','manager.cpp','-o','build/obj/./manager.o']
+['-isystem','C:/libs/boost_1_75_0','-IC:/VCAST/2025sp5/tutorial/cpp','-O2','-g','-std=gnu++17','-Wno-unused-variable','-Wno-unused-parameter','-Wno-missing-field-initializers','-funsigned-char','-c','manager_driver.cpp','-o','build/obj/./manager_driver.o']
+['-isystem','C:/libs/boost_1_75_0','-IC:/VCAST/2025sp5/tutorial/cpp','-O2','-g','-std=gnu++17','-Wno-unused-variable','-Wno-unused-parameter','-Wno-missing-field-initializers','-funsigned-char','-c','whitebox.cpp','-o','build/obj/./whitebox.o']
+['build/obj/./database.o','build/obj/./manager.o','build/obj/./manager_driver.o','build/obj/./whitebox.o','-o','Manager_app']

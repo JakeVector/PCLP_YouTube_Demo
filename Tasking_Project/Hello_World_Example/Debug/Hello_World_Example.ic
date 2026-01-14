@@ -1,0 +1,778 @@
+/* Translated by:
+ *   TASKING VX-toolset for ARM Cortex: C++ compiler v6.3r1 Build 19041558 SN 07740807
+ */
+void *memcpy(); void *memset();
+#line 1 "..\\Hello_World_Example.cpp"
+struct __C1; struct __C2; struct __C3; struct __type_info; struct __class_type_info; struct __si_class_type_info; struct __C5; struct __C6; union __C7; struct an_eh_stack_entry;
+#line 1018 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\memory"
+struct _ZNSt18__pointer_type_imp14__pointer_typeIcSaIcELb1EEE;
+#line 516 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\type_traits"
+struct _ZSt17integral_constantIbLb0EE; struct _ZSt17integral_constantIbLb1EE;
+#line 297 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\utility"
+struct _ZSt21piecewise_construct_t;
+#line 97 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\exception"
+struct _ZSt9exception;
+#line 129 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\limits"
+enum _ZSt17float_round_style {
+
+_ZSt19round_indeterminate = (-1),
+_ZSt17round_toward_zero,
+_ZSt16round_to_nearest,
+_ZSt21round_toward_infinity,
+_ZSt25round_toward_neg_infinity};
+
+
+enum _ZSt18float_denorm_style {
+
+_ZSt20denorm_indeterminate = (-1),
+_ZSt13denorm_absent,
+_ZSt14denorm_present};
+#line 434 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\iterator"
+struct _ZSt19output_iterator_tag;
+#line 521
+struct _ZSt8iteratorISt19output_iterator_tagvvvvE;
+#line 58 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\stdexcept"
+struct _ZSt18__libcpp_refstring;
+#line 77
+struct _ZSt11logic_error;
+#line 131
+struct _ZSt12length_error;
+#line 714 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\memory"
+struct _ZSaIvE;
+#line 2199
+struct _ZSt12__second_tag;
+#line 3511
+struct _ZSt14__shared_count;
+#line 199 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\__string"
+struct _ZSt11char_traitsIcE;
+#line 592 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\string"
+struct _ZSt21__basic_string_commonILb1EE;
+#line 101 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\iosfwd"
+struct _ZSaIcE;
+#line 1111 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\type_traits"
+struct _ZSt16remove_referenceISaIcEE;
+#line 1032 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\memory"
+struct _ZSt14__pointer_typeIcSaIcEE;
+#line 1045
+struct _ZSt15__const_pointerIcPcSaIcELb1EE;
+#line 424 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\type_traits"
+struct _ZSt11conditionalILb0ENSt14pointer_traitsIPcE5__natEcE;
+#line 988 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\memory"
+struct _ZNSt14pointer_traitsIPcE5__natE;
+#line 952
+struct _ZSt14pointer_traitsIPcE;
+#line 1505
+struct _ZSt30__alloc_traits_difference_typeISaIcEPcLb1EE;
+#line 1166
+struct _ZSt11__size_typeISaIcEiLb1EE;
+#line 1517
+struct _ZSt16allocator_traitsISaIcEE;
+#line 1297 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\iterator"
+struct _ZSt11__wrap_iterIPcE; struct _ZSt11__wrap_iterIPKcE;
+#line 729 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\string"
+struct _ZNSs6__longE;
+#line 750
+union __C8;
+#line 747
+struct _ZNSs7__shortE;
+#line 763
+struct _ZNSs5__rawE;
+#line 771
+union __C9;
+#line 768
+struct _ZNSs5__repE;
+#line 2128 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\memory"
+struct _ZSt22__compressed_pair_elemINSs5__repELi0ELb0EE; struct _ZSt22__compressed_pair_elemISaIcELi1ELb1EE;
+#line 2202
+struct _ZSt17__compressed_pairINSs5__repESaIcEE;
+#line 435 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\type_traits"
+struct _ZSt9enable_ifILb1EDnE;
+#line 744 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\string"
+enum _ZNSsUt_E { _ZNSs9__min_capE = 11};
+#line 193 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\iosfwd"
+struct _ZSs;
+#line 3404 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\type_traits"
+struct _ZSt24is_default_constructibleINSs5__repEE; struct _ZSt24is_default_constructibleISaIcEE;
+#line 572 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\mutex"
+struct _ZSt9once_flag;
+#line 172 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\__locale"
+struct _ZNSt6locale5facetE;
+#line 188
+struct _ZNSt6locale2idE;
+#line 160
+struct _ZNSt6locale5__impE;
+#line 108
+struct _ZSt6locale;
+#line 380
+struct _ZSt10ctype_base;
+#line 606
+struct _ZSt5ctypeIcE;
+#line 884
+enum _ZNSt12codecvt_base6resultE { _ZNSt12codecvt_base2okE, _ZNSt12codecvt_base7partialE, _ZNSt12codecvt_base5errorE, _ZNSt12codecvt_base6noconvE};
+#line 270 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\ios"
+enum _ZNSt8ios_base7seekdirE { _ZNSt8ios_base3begE, _ZNSt8ios_base3curE, _ZNSt8ios_base3endE};
+#line 308
+enum _ZNSt8ios_base5eventE { _ZNSt8ios_base11erase_eventE, _ZNSt8ios_base11imbue_eventE, _ZNSt8ios_base13copyfmt_eventE};
+#line 231
+struct _ZSt8ios_base;
+#line 107 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\iosfwd"
+struct _ZSt15basic_streambufIcSt11char_traitsIcEE;
+#line 104
+struct _ZSt9basic_iosIcSt11char_traitsIcEE;
+#line 1768 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\locale"
+enum _ZNSt9time_base9dateorderE { _ZNSt9time_base8no_orderE, _ZNSt9time_base3dmyE, _ZNSt9time_base3mdyE, _ZNSt9time_base3ymdE, _ZNSt9time_base3ydmE};
+#line 190 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\ostream"
+struct _ZNSo6sentryE;
+#line 111 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\iosfwd"
+struct _ZSo;
+#line 1038 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\iterator"
+struct _ZSt19ostreambuf_iteratorIcSt11char_traitsIcEE;
+#line 424 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\type_traits"
+struct _ZSt11conditionalILb0ENSt14pointer_traitsIPKcE5__natES1_E;
+#line 988 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\memory"
+struct _ZNSt14pointer_traitsIPKcE5__natE;
+#line 952
+struct _ZSt14pointer_traitsIPKcE; struct __C2 { unsigned long dtor; unsigned short handle; unsigned short next; unsigned char flags;}; struct __C3 { struct __C2 *regions; void **obj_table; struct __C1 *array_table; unsigned short saved_region_number;}; struct __type_info { const long *__vptr; const 
+#line 952
+char *__name;}; struct __class_type_info { struct __type_info base;}; struct __si_class_type_info { struct __class_type_info base; const struct __class_type_info *base_type;}; struct __C5 { const struct __type_info *tinfo; unsigned flags; unsigned *ptr_flags;}; struct __C6 { int setjmp_buffer[11]; 
+#line 952
+struct __C5 *catch_entries; void *rtinfo; unsigned short region_number;}; union __C7 { struct __C6 try_block; struct __C3 function; struct __C5 *throw_spec;}; struct an_eh_stack_entry { struct an_eh_stack_entry *next; unsigned char kind; union __C7 variant;};
+#line 31 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include\\stdio.h"
+typedef unsigned size_t;
+#line 33 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include\\stddef.h"
+typedef int ptrdiff_t;
+#line 253 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include\\stdint.h"
+typedef signed int int32_t;
+#line 724 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\ostream"
+typedef struct _ZSt19ostreambuf_iteratorIcSt11char_traitsIcEE _ZZSt24__put_character_sequenceIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_jE3_Ip;
+#line 1775 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\memory"
+typedef char *_ZNSaIcE7pointerE;
+#line 1020
+typedef _ZNSaIcE7pointerE _ZNSt18__pointer_type_imp14__pointer_typeIcSaIcELb1EE4typeE;
+#line 1018
+struct _ZNSt18__pointer_type_imp14__pointer_typeIcSaIcELb1EEE {char __dummy;};
+#line 147 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\iosfwd"
+typedef struct _ZSo _ZSt7ostream;
+#line 57 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\__nullptr"
+typedef void *_ZSt9nullptr_t;
+#line 540 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\type_traits"
+typedef struct _ZSt17integral_constantIbLb1EE _ZSt9true_type;
+typedef struct _ZSt17integral_constantIbLb0EE _ZSt10false_type;
+#line 516
+struct _ZSt17integral_constantIbLb0EE {char __dummy;}; struct _ZSt17integral_constantIbLb1EE {char __dummy;};
+#line 297 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\utility"
+struct _ZSt21piecewise_construct_t {char __dummy;};
+#line 97 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\exception"
+struct _ZSt9exception { const long *__vptr;};
+#line 521 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\iterator"
+struct _ZSt8iteratorISt19output_iterator_tagvvvvE {char __dummy;};
+#line 58 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\stdexcept"
+struct _ZSt18__libcpp_refstring {
+
+const char *__imp_;};
+#line 77
+struct _ZSt11logic_error { struct _ZSt9exception __b_St9exception;
+
+
+
+struct _ZSt18__libcpp_refstring __imp_;};
+#line 131
+struct _ZSt12length_error { struct _ZSt11logic_error __b_St11logic_error;};
+#line 718 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\memory"
+typedef const void *_ZNSaIvE13const_pointerE;
+#line 714
+struct _ZSaIvE {char __dummy;};
+#line 2199
+struct _ZSt12__second_tag {char __dummy;};
+#line 3511
+struct _ZSt14__shared_count { const long *__vptr;
+#line 3517
+long __shared_owners_;};
+#line 201 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\__string"
+typedef char _ZNSt11char_traitsIcE9char_typeE;
+typedef int _ZNSt11char_traitsIcE8int_typeE;
+#line 199
+struct _ZSt11char_traitsIcE {char __dummy;};
+#line 592 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\string"
+struct _ZSt21__basic_string_commonILb1EE {char __dummy;};
+#line 1773 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\memory"
+typedef size_t _ZNSaIcE9size_typeE;
+typedef ptrdiff_t _ZNSaIcE15difference_typeE;
+
+typedef const char *_ZNSaIcE13const_pointerE;
+
+
+typedef char _ZNSaIcE10value_typeE;
+#line 101 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\iosfwd"
+struct _ZSaIcE {char __dummy;};
+#line 668 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\string"
+typedef struct _ZSaIcE _ZNSs14allocator_typeE;
+#line 1519 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\memory"
+typedef _ZNSs14allocator_typeE _ZNSt16allocator_traitsISaIcEE14allocator_typeE;
+#line 1111 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\type_traits"
+typedef _ZNSt16allocator_traitsISaIcEE14allocator_typeE _ZNSt16remove_referenceISaIcEE4typeE; struct _ZSt16remove_referenceISaIcEE {char __dummy;};
+#line 1034 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\memory"
+typedef _ZNSt18__pointer_type_imp14__pointer_typeIcSaIcELb1EE4typeE _ZNSt14__pointer_typeIcSaIcEE4typeE;
+#line 1032
+struct _ZSt14__pointer_typeIcSaIcEE {char __dummy;};
+#line 1047
+typedef _ZNSaIcE13const_pointerE _ZNSt15__const_pointerIcPcSaIcELb1EE4typeE;
+#line 1045
+struct _ZSt15__const_pointerIcPcSaIcELb1EE {char __dummy;};
+#line 978
+typedef char _ZNSt14pointer_traitsIPcE12element_typeE;
+#line 426 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\type_traits"
+typedef _ZNSt14pointer_traitsIPcE12element_typeE _ZNSt11conditionalILb0ENSt14pointer_traitsIPcE5__natEcE4typeE;
+#line 424
+struct _ZSt11conditionalILb0ENSt14pointer_traitsIPcE5__natEcE {char __dummy;};
+#line 952 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\memory"
+struct _ZSt14pointer_traitsIPcE {char __dummy;};
+#line 1513
+typedef _ZNSaIcE15difference_typeE _ZNSt30__alloc_traits_difference_typeISaIcEPcLb1EE4typeE;
+#line 1505
+struct _ZSt30__alloc_traits_difference_typeISaIcEPcLb1EE {char __dummy;};
+#line 1174
+typedef _ZNSaIcE9size_typeE _ZNSt11__size_typeISaIcEiLb1EE4typeE;
+#line 1166
+struct _ZSt11__size_typeISaIcEiLb1EE {char __dummy;};
+#line 1520
+typedef _ZNSaIcE10value_typeE _ZNSt16allocator_traitsISaIcEE10value_typeE;
+
+typedef _ZNSt14__pointer_typeIcSaIcEE4typeE _ZNSt16allocator_traitsISaIcEE7pointerE;
+typedef _ZNSt15__const_pointerIcPcSaIcELb1EE4typeE _ZNSt16allocator_traitsISaIcEE13const_pointerE;
+
+
+
+typedef _ZNSt30__alloc_traits_difference_typeISaIcEPcLb1EE4typeE _ZNSt16allocator_traitsISaIcEE15difference_typeE;
+typedef _ZNSt11__size_typeISaIcEiLb1EE4typeE _ZNSt16allocator_traitsISaIcEE9size_typeE;
+#line 1517
+struct _ZSt16allocator_traitsISaIcEE {char __dummy;};
+#line 670 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\string"
+typedef _ZNSt16allocator_traitsISaIcEE9size_typeE _ZNSs9size_typeE;
+
+
+
+typedef _ZNSt16allocator_traitsISaIcEE7pointerE _ZNSs7pointerE;
+#line 729
+struct _ZNSs6__longE {
+
+_ZNSs9size_typeE __cap_;
+_ZNSs9size_typeE __size_;
+_ZNSs7pointerE __data_;};
+#line 667
+typedef char _ZNSs10value_typeE;
+#line 750
+union __C8 {
+unsigned char __size_;
+_ZNSs10value_typeE __lx;};
+#line 747
+struct _ZNSs7__shortE {
+
+union __C8 __T1;
+
+
+
+
+_ZNSs10value_typeE __data_[11];};
+#line 763
+struct _ZNSs5__rawE {
+
+_ZNSs9size_typeE __words[3];};
+#line 771
+union __C9 {
+struct _ZNSs6__longE __l;
+struct _ZNSs7__shortE __s;
+struct _ZNSs5__rawE __r;};
+#line 768
+struct _ZNSs5__repE {
+
+union __C9 __T2;};
+#line 2128 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\memory"
+struct _ZSt22__compressed_pair_elemINSs5__repELi0ELb0EE {
+#line 2160
+struct _ZNSs5__repE __value_;};
+#line 2128
+struct _ZSt22__compressed_pair_elemISaIcELi1ELb1EE {char __dummy;};
+#line 2202
+struct _ZSt17__compressed_pairINSs5__repESaIcEE { struct _ZSt22__compressed_pair_elemINSs5__repELi0ELb0EE __b_St22__compressed_pair_elemINSs5__repELi0ELb0EE;};
+#line 436 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\type_traits"
+typedef _ZSt9nullptr_t _ZNSt9enable_ifILb1EDnE4typeE;
+#line 435
+struct _ZSt9enable_ifILb1EDnE {char __dummy;};
+#line 675 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\string"
+typedef _ZNSt16allocator_traitsISaIcEE13const_pointerE _ZNSs13const_pointerE;
+#line 689
+typedef struct _ZSt11__wrap_iterIPcE _ZNSs8iteratorE;
+typedef struct _ZSt11__wrap_iterIPKcE _ZNSs14const_iteratorE;
+#line 193 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\iosfwd"
+struct _ZSs {
+#line 778 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\string"
+struct _ZSt17__compressed_pairINSs5__repESaIcEE __r_;};
+#line 572 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\mutex"
+struct _ZSt9once_flag {
+#line 582
+unsigned long __state_;};
+#line 172 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\__locale"
+struct _ZNSt6locale5facetE { struct _ZSt14__shared_count __b_St14__shared_count;};
+#line 188
+struct _ZNSt6locale2idE {
+
+struct _ZSt9once_flag __flag_;
+int32_t __id_;};
+#line 108
+struct _ZSt6locale {
+#line 161
+struct _ZNSt6locale5__impE *__locale_;};
+#line 398
+typedef unsigned short _ZNSt10ctype_base4maskE;
+#line 380
+struct _ZSt10ctype_base {char __dummy;};
+#line 612
+typedef char _ZNSt5ctypeIcE9char_typeE;
+#line 606
+struct _ZSt5ctypeIcE { struct _ZNSt6locale5facetE __b_NSt6locale5facetE;
+
+
+const _ZNSt10ctype_base4maskE *__tab_;
+char __del_;};
+#line 229 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\ios"
+typedef ptrdiff_t _ZSt10streamsize;
+#line 236
+typedef unsigned _ZNSt8ios_base8fmtflagsE;
+#line 256
+typedef unsigned _ZNSt8ios_base7iostateE;
+#line 309
+typedef void (*_ZNSt8ios_base14event_callbackE)(enum _ZNSt8ios_base5eventE, struct _ZSt8ios_base *, int __index);
+#line 231
+struct _ZSt8ios_base { const long *__vptr;
+#line 362
+_ZNSt8ios_base8fmtflagsE __fmtflags_;
+_ZSt10streamsize __precision_;
+_ZSt10streamsize __width_;
+_ZNSt8ios_base7iostateE __rdstate_;
+_ZNSt8ios_base7iostateE __exceptions_;
+void *__rdbuf_;
+void *__loc_;
+_ZNSt8ios_base14event_callbackE *__fn_;
+int *__index_;
+size_t __event_size_;
+size_t __event_cap_;
+#line 380
+long *__iarray_;
+size_t __iarray_size_;
+size_t __iarray_cap_;
+void **__parray_;
+size_t __parray_size_;
+size_t __parray_cap_;};
+#line 129 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\streambuf"
+typedef char _ZNSt15basic_streambufIcSt11char_traitsIcEE9char_typeE;
+#line 107 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\iosfwd"
+struct _ZSt15basic_streambufIcSt11char_traitsIcEE { const long *__vptr;
+#line 296 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\streambuf"
+struct _ZSt6locale __loc_;
+_ZNSt15basic_streambufIcSt11char_traitsIcEE9char_typeE *__binp_;
+_ZNSt15basic_streambufIcSt11char_traitsIcEE9char_typeE *__ninp_;
+_ZNSt15basic_streambufIcSt11char_traitsIcEE9char_typeE *__einp_;
+_ZNSt15basic_streambufIcSt11char_traitsIcEE9char_typeE *__bout_;
+_ZNSt15basic_streambufIcSt11char_traitsIcEE9char_typeE *__nout_;
+_ZNSt15basic_streambufIcSt11char_traitsIcEE9char_typeE *__eout_;};
+#line 588 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\ios"
+typedef char _ZNSt9basic_iosIcSt11char_traitsIcEE9char_typeE;
+
+
+typedef _ZNSt11char_traitsIcE8int_typeE _ZNSt9basic_iosIcSt11char_traitsIcEE8int_typeE;
+#line 104 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\iosfwd"
+struct _ZSt9basic_iosIcSt11char_traitsIcEE { struct _ZSt8ios_base __b_St8ios_base;
+#line 672 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\ios"
+struct _ZSo *__tie_;
+_ZNSt9basic_iosIcSt11char_traitsIcEE8int_typeE __fill_;};
+#line 156 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\ostream"
+typedef char _ZNSo9char_typeE;
+#line 190
+struct _ZNSo6sentryE {
+#line 242
+char __ok_;
+struct _ZSo *__os_;};
+#line 111 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\iosfwd"
+struct _ZSo { const long *__vptr; struct _ZSt9basic_iosIcSt11char_traitsIcEE __v_St9basic_iosIcSt11char_traitsIcEE;};
+#line 1044 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\iterator"
+typedef struct _ZSt15basic_streambufIcSt11char_traitsIcEE _ZNSt19ostreambuf_iteratorIcSt11char_traitsIcEE14streambuf_typeE;
+#line 1038
+struct _ZSt19ostreambuf_iteratorIcSt11char_traitsIcEE {
+#line 1047
+_ZNSt19ostreambuf_iteratorIcSt11char_traitsIcEE14streambuf_typeE *__sbuf_;};
+#line 978 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\memory"
+typedef const char _ZNSt14pointer_traitsIPKcE12element_typeE;
+#line 426 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\type_traits"
+typedef _ZNSt14pointer_traitsIPKcE12element_typeE _ZNSt11conditionalILb0ENSt14pointer_traitsIPKcE5__natES1_E4typeE;
+#line 424
+struct _ZSt11conditionalILb0ENSt14pointer_traitsIPKcE5__natES1_E {char __dummy;};
+#line 952 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\memory"
+struct _ZSt14pointer_traitsIPKcE {char __dummy;};
+#line 185 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\new"
+extern void *_Znwj(size_t __sz);
+
+extern void _ZdlPv(void *__p);
+
+
+extern void _ZdlPvj(void *__p, size_t __sz);
+#line 52 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include\\string.h"
+extern size_t strlen(const char *);
+
+
+
+extern void *memset(void *, int, size_t); extern void *__throw_setup_dtor(const void *, unsigned, int, void *(*)(void *)); extern __noreturn__ void __throw(void);
+#line 10 "..\\Hello_World_Example.cpp"
+extern int main(void); extern void _main(void); extern int setjmp(int [11]); extern void __destroy_exception_object(void); extern void __exception_caught(void); extern void *memset(void *, int, unsigned);
+#line 84 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\stdexcept"
+extern struct _ZSt11logic_error *_ZNSt11logic_errorC1EPKc(struct _ZSt11logic_error *const, const char *); extern struct _ZSt11logic_error *_ZNSt11logic_errorC2EPKc(struct _ZSt11logic_error *const, const char *);
+
+
+
+
+extern void *_ZNSt11logic_errorD1Ev(struct _ZSt11logic_error *const); extern void *_ZNSt11logic_errorD2Ev(struct _ZSt11logic_error *const);
+#pragma weak _ZNSt12length_errorC1EPKc
+#line 136
+extern struct _ZSt12length_error *_ZNSt12length_errorC1EPKc(struct _ZSt12length_error *const, const char *__s);
+#pragma weak _ZNSt12length_errorC2EPKc
+extern struct _ZSt12length_error *_ZNSt12length_errorC2EPKc(struct _ZSt12length_error *const, const char *); extern void *_ZNSt12length_errorD1Ev(struct _ZSt12length_error *const);
+#pragma weak _ZNSt11char_traitsIcE11to_int_typeEc
+#line 241 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\__string"
+extern _ZNSt11char_traitsIcE8int_typeE _ZNSt11char_traitsIcE11to_int_typeEc(_ZNSt11char_traitsIcE9char_typeE __c);
+#pragma weak _ZNSt11char_traitsIcE11eq_int_typeEii
+extern char _ZNSt11char_traitsIcE11eq_int_typeEii(_ZNSt11char_traitsIcE8int_typeE __c1, _ZNSt11char_traitsIcE8int_typeE __c2);
+#line 595 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\string"
+extern __noreturn__ void _ZNKSt21__basic_string_commonILb1EE20__throw_length_errorEv(const struct _ZSt21__basic_string_commonILb1EE *const);
+#pragma weak _ZNSt22__compressed_pair_elemINSs5__repELi0ELb0EEC1Ev
+#line 2134 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\memory"
+extern struct _ZSt22__compressed_pair_elemINSs5__repELi0ELb0EE *_ZNSt22__compressed_pair_elemINSs5__repELi0ELb0EEC1Ev(struct _ZSt22__compressed_pair_elemINSs5__repELi0ELb0EE *const);
+#pragma weak _ZNSt22__compressed_pair_elemINSs5__repELi0ELb0EEC2Ev
+extern struct _ZSt22__compressed_pair_elemINSs5__repELi0ELb0EE *_ZNSt22__compressed_pair_elemINSs5__repELi0ELb0EEC2Ev(struct _ZSt22__compressed_pair_elemINSs5__repELi0ELb0EE *const);
+#line 2108 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\string"
+extern void *_ZNSsD1Ev(struct _ZSs *const); extern void *_ZNSsD2Ev(struct _ZSs *const);
+#line 1516
+extern _ZNSs9size_typeE _ZNSs11__recommendEj(_ZNSs9size_typeE __s);
+#line 1887
+extern void _ZNSs6__initEjc(struct _ZSs *const, _ZNSs9size_typeE __n, _ZNSs10value_typeE __c);
+#line 138 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\__locale"
+extern void *_ZNSt6localeD1Ev(struct _ZSt6locale *const);
+#line 166
+extern const struct _ZNSt6locale5facetE *_ZNKSt6locale9use_facetERNS_2idE(const struct _ZSt6locale *const, struct _ZNSt6locale2idE *);
+#line 297 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\ios"
+extern void _ZNKSt8ios_base6getlocEv(struct _ZSt6locale *, const struct _ZSt8ios_base *const);
+#line 320
+extern void _ZNSt8ios_base5clearEj(struct _ZSt8ios_base *const, _ZNSt8ios_base7iostateE __state);
+#line 331
+extern void _ZNSt8ios_base33__set_badbit_and_consider_rethrowEv(struct _ZSt8ios_base *const);
+#line 757
+extern _ZNSt9basic_iosIcSt11char_traitsIcEE9char_typeE _ZNKSt9basic_iosIcSt11char_traitsIcEE5widenEc(const struct _ZSt9basic_iosIcSt11char_traitsIcEE *const, char __c);
+#line 222 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\ostream"
+extern struct _ZSo *_ZNSo3putEc(struct _ZSo *const, _ZNSo9char_typeE __c);
+
+extern struct _ZSo *_ZNSo5flushEv(struct _ZSo *const);
+#line 249
+extern struct _ZNSo6sentryE *_ZNSo6sentryC1ERSo(struct _ZNSo6sentryE *const, struct _ZSo *__os);
+extern void *_ZNSo6sentryD1Ev(struct _ZNSo6sentryE *const);
+#pragma weak _ZSt16__to_raw_pointerIcEPT_S1_
+#line 1109 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\memory"
+extern char *_ZSt16__to_raw_pointerIcEPT_S1_(char *__p);
+#pragma weak _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+#line 862 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\ostream"
+extern struct _ZSo *_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc(struct _ZSo *__os, const char *__str);
+#pragma weak _ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_
+#line 999
+extern struct _ZSo *_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_(struct _ZSo *__os);
+#pragma weak _ZSt24__put_character_sequenceIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_j
+#line 714
+extern struct _ZSo *_ZSt24__put_character_sequenceIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_j(struct _ZSo *__os, const char *__str, size_t __len);
+#pragma weak _ZSt16__pad_and_outputIcSt11char_traitsIcEESt19ostreambuf_iteratorIT_T0_ES5_PKS3_S7_S7_RSt8ios_baseS3_
+#line 1410 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\locale"
+extern struct _ZSt19ostreambuf_iteratorIcSt11char_traitsIcEE _ZSt16__pad_and_outputIcSt11char_traitsIcEESt19ostreambuf_iteratorIT_T0_ES5_PKS3_S7_S7_RSt8ios_baseS3_(struct _ZSt19ostreambuf_iteratorIcSt11char_traitsIcEE __s, const char *__ob, const char *__op, const char *__oe, struct _ZSt8ios_base *
+#line 1410
+__iob, char __fl);
+#pragma weak _ZSt16__to_raw_pointerIKcEPT_S2_
+#line 1109 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\memory"
+extern const char *_ZSt16__to_raw_pointerIKcEPT_S2_(const char *__p); extern struct an_eh_stack_entry *__curr_eh_stack_entry; extern unsigned short __eh_curr_region; extern const long _ZTVSt12length_error[5]; extern const struct __si_class_type_info _ZTISt12length_error;
+#pragma weak _ZZNSaIcE8allocateEjPKvEs
+extern char _ZZNSaIcE8allocateEjPKvEs[68];
+#line 696 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\__locale"
+extern struct _ZNSt6locale2idE _ZNSt5ctypeIcE2idE;
+#line 54 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\iostream"
+extern _ZSt7ostream _ZSt4cout; char _ZZNSaIcE8allocateEjPKvEs[68] = "allocator<T>::allocate(size_t n) \'n\' exceeds maximum supported size";
+#line 10 "..\\Hello_World_Example.cpp"
+int main(void)
+{ auto struct _ZSo *__T3;
+auto int __59327_6_num;
+#line 11
+_main();
+__59327_6_num = 0;
+(__T3 = (_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc((&_ZSt4cout), ((const char *)"Hello world")))) , (_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_(__T3));
+return 0;
+}
+#line 136 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\stdexcept"
+inline struct _ZSt12length_error *_ZNSt12length_errorC1EPKc( struct _ZSt12length_error *const this,  const char *__20859_65___s) { static struct __C2 __T4[1] = {{((unsigned long)_ZNSt11logic_errorD2Ev),((unsigned short)0U),((unsigned short)65535U),((unsigned char)64U)}}; auto void *__T5[1]; auto 
+#line 136
+struct an_eh_stack_entry __T6;  (__T6.next) = __curr_eh_stack_entry; __curr_eh_stack_entry = (&__T6); (__T6.kind) = ((unsigned char)1U); (((__T6.variant).function).regions) = (__T4); (((__T6.variant).function).obj_table) = (__T5); (((__T6.variant).function).saved_region_number) = __eh_curr_region; 
+#line 136
+__eh_curr_region = ((unsigned short)65535U); _ZNSt11logic_errorC2EPKc((&(this->__b_St11logic_error)), __20859_65___s); ((__T5)[0U]) = ((void *)(&(this->__b_St11logic_error))); __eh_curr_region = ((unsigned short)0U); (((this->__b_St11logic_error).__b_St9exception).__vptr) = (_ZTVSt12length_error + 2
+#line 136
+); { __eh_curr_region = (((__T6.variant).function).saved_region_number); __curr_eh_stack_entry = (__T6.next); return this; } } inline struct _ZSt12length_error *_ZNSt12length_errorC2EPKc( struct _ZSt12length_error *const this,  const char *__T7) { auto struct _ZSt12length_error *__T8;  __T8 = (
+#line 136
+_ZNSt12length_errorC1EPKc(this, __T7)); return __T8; }
+#line 241 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\__string"
+inline _ZNSt11char_traitsIcE8int_typeE _ZNSt11char_traitsIcE11to_int_typeEc( _ZNSt11char_traitsIcE9char_typeE __34388_68___c)
+{ auto _ZNSt11char_traitsIcE8int_typeE __T9; auto struct an_eh_stack_entry __T10;  (__T10.next) = __curr_eh_stack_entry; __curr_eh_stack_entry = (&__T10); (__T10.kind) = ((unsigned char)6U); { __T9 = ((_ZNSt11char_traitsIcE8int_typeE)((unsigned char)__34388_68___c)); { __curr_eh_stack_entry = (__T10
+#line 242
+.next); return __T9; } } }
+inline char _ZNSt11char_traitsIcE11eq_int_typeEii( _ZNSt11char_traitsIcE8int_typeE __34390_63___c1,  _ZNSt11char_traitsIcE8int_typeE __34390_78___c2)
+{ auto char __T11; auto struct an_eh_stack_entry __T12;  (__T12.next) = __curr_eh_stack_entry; __curr_eh_stack_entry = (&__T12); (__T12.kind) = ((unsigned char)6U); { __T11 = ((char)(__34390_63___c1 == __34390_78___c2)); { __curr_eh_stack_entry = (__T12.next); return __T11; } } }
+#pragma weak _ZNSt22__compressed_pair_elemINSs5__repELi0ELb0EEC1Ev
+#line 2134 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\memory"
+inline struct _ZSt22__compressed_pair_elemINSs5__repELi0ELb0EE *_ZNSt22__compressed_pair_elemINSs5__repELi0ELb0EEC1Ev( struct _ZSt22__compressed_pair_elemINSs5__repELi0ELb0EE *const this) {  memset(((void *)(&(this->__value_))), 0, 12U); return this; } inline struct 
+#line 2134
+_ZSt22__compressed_pair_elemINSs5__repELi0ELb0EE *_ZNSt22__compressed_pair_elemINSs5__repELi0ELb0EEC2Ev( struct _ZSt22__compressed_pair_elemINSs5__repELi0ELb0EE *const this) { auto struct _ZSt22__compressed_pair_elemINSs5__repELi0ELb0EE *__T13;  __T13 = ((memset(((void *)(&(this->__value_))), 0, 12U
+#line 2134
+)) , this); return __T13; }
+#pragma weak _ZSt16__to_raw_pointerIcEPT_S1_
+#line 1109
+inline char *_ZSt16__to_raw_pointerIcEPT_S1_( char *__21561_23___p)
+{ auto char *__T14; auto struct an_eh_stack_entry __T15;  (__T15.next) = __curr_eh_stack_entry; __curr_eh_stack_entry = (&__T15); (__T15.kind) = ((unsigned char)6U); {
+__T14 = __21561_23___p; { __curr_eh_stack_entry = (__T15.next); return __T14; } }
+}
+#pragma weak _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+#line 862 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\ostream"
+struct _ZSo *_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc( struct _ZSo *__57711_42___os,  const char *__57711_60___str)
+{ auto size_t __T16; auto struct an_eh_stack_entry __T17;
+return _ZSt24__put_character_sequenceIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_j(__57711_42___os, __57711_60___str, (((((__T17.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T17))) , ((__T17.kind) = ((unsigned char)6U))) , ((__T16 = (strlen(__57711_60___str))) , ((
+#line 864
+__curr_eh_stack_entry = (__T17.next)) , __T16))));
+}
+#pragma weak _ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_
+#line 999
+inline struct _ZSo *_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_( struct _ZSo *__57848_38___os)
+{
+_ZNSo3putEc(__57848_38___os, (_ZNKSt9basic_iosIcSt11char_traitsIcEE5widenEc(((const struct _ZSt9basic_iosIcSt11char_traitsIcEE *)((__57848_38___os) ? ((struct _ZSt9basic_iosIcSt11char_traitsIcEE *)(((char *)__57848_38___os) + ((__57848_38___os->__vptr)[(-3)]))) : ((struct 
+#line 1001
+_ZSt9basic_iosIcSt11char_traitsIcEE *)0))), ((char)10))));
+_ZNSo5flushEv(__57848_38___os);
+return __57848_38___os;
+}
+#pragma weak _ZSt24__put_character_sequenceIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_j
+#line 714
+struct _ZSo *_ZSt24__put_character_sequenceIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_j( struct _ZSo *__57563_58___os, 
+const char *__57564_41___str,  size_t __57564_55___len)
+{ static struct __C5 __T18[1] = {{((const struct __type_info *)0),48U,((unsigned *)0)}}; static struct __C2 __T19[2] = {{((unsigned long)_ZNSo6sentryD1Ev),((unsigned short)0U),((unsigned short)65535U),((unsigned char)0U)},{((unsigned long)__destroy_exception_object),((unsigned short)0U),((
+#line 716
+unsigned short)65535U),((unsigned char)0U)}}; auto struct an_eh_stack_entry __T20; auto void *__T21[1]; auto struct _ZSo *__T22; auto struct an_eh_stack_entry __T23;  (__T23.next) = __curr_eh_stack_entry; __curr_eh_stack_entry = (&__T23); (__T23.kind) = ((unsigned char)1U); (((__T23.variant).
+#line 716
+function).regions) = (__T19); (((__T23.variant).function).obj_table) = (__T21); (((__T23.variant).function).saved_region_number) = __eh_curr_region; __eh_curr_region = ((unsigned short)65535U); { (__T20.next) = __curr_eh_stack_entry; __curr_eh_stack_entry = (&__T20); (__T20.kind) = ((unsigned char)5U
+#line 716
+); (((__T20.variant).try_block).catch_entries) = (__T18); (((__T20.variant).try_block).rtinfo) = ((void *)0); (((__T20.variant).try_block).region_number) = __eh_curr_region;
+
+if ((setjmp(((((__T20.variant).try_block).setjmp_buffer)))) == 0)
+{
+
+auto struct _ZNSo6sentryE __57570_57___s;
+#line 719
+;
+
+_ZNSo6sentryC1ERSo((&__57570_57___s), __57563_58___os); ((__T21)[0U]) = ((void *)(&__57570_57___s)); __eh_curr_region = ((unsigned short)0U);
+if (((*(const struct _ZNSo6sentryE *)&__57570_57___s)).__ok_)
+{ auto struct _ZSt19ostreambuf_iteratorIcSt11char_traitsIcEE __T24; auto _ZZSt24__put_character_sequenceIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_jE3_Ip __T25; auto const struct _ZSt9basic_iosIcSt11char_traitsIcEE *__T26; auto struct an_eh_stack_entry __T27; auto const struct 
+#line 723
+_ZSt8ios_base *__T28; auto const struct _ZSt9basic_iosIcSt11char_traitsIcEE *__T29; auto const struct _ZSt19ostreambuf_iteratorIcSt11char_traitsIcEE *__T30; auto char __T31; auto struct an_eh_stack_entry __T32;
+
+if ((__T30 = ((const struct _ZSt19ostreambuf_iteratorIcSt11char_traitsIcEE *)((__T24 = (_ZSt16__pad_and_outputIcSt11char_traitsIcEESt19ostreambuf_iteratorIT_T0_ES5_PKS3_S7_S7_RSt8ios_baseS3_((((((((__T27.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T27))) , ((__T27.kind) = ((
+#line 725
+unsigned char)6U))) , ((__T25.__sbuf_) = ((__T26 = ((const struct _ZSt9basic_iosIcSt11char_traitsIcEE *)((__57563_58___os) ? ((struct _ZSt9basic_iosIcSt11char_traitsIcEE *)(((char *)__57563_58___os) + ((__57563_58___os->__vptr)[(-3)]))) : ((struct _ZSt9basic_iosIcSt11char_traitsIcEE *)0)))) , ((
+#line 725
+struct _ZSt15basic_streambufIcSt11char_traitsIcEE *)((__T26->__b_St8ios_base).__rdbuf_))))) , ((__curr_eh_stack_entry = (__T27.next)) , (&__T25))) , __T25), __57564_41___str, (((((__T28 = ((const struct _ZSt8ios_base *)((__57563_58___os) ? (&(((struct _ZSt9basic_iosIcSt11char_traitsIcEE *)(((char *)
+#line 725
+__57563_58___os) + ((__57563_58___os->__vptr)[(-3)])))->__b_St8ios_base)) : ((struct _ZSt8ios_base *)0)))) , (__T28->__fmtflags_)) & 0xb0U) == 32U) ? (__57564_41___str + __57564_55___len) : __57564_41___str), (__57564_41___str + __57564_55___len), ((__57563_58___os) ? (&(((struct 
+#line 725
+_ZSt9basic_iosIcSt11char_traitsIcEE *)(((char *)__57563_58___os) + ((__57563_58___os->__vptr)[(-3)])))->__b_St8ios_base)) : ((struct _ZSt8ios_base *)0)), ((__T29 = ((const struct _ZSt9basic_iosIcSt11char_traitsIcEE *)((__57563_58___os) ? ((struct _ZSt9basic_iosIcSt11char_traitsIcEE *)(((char *)
+#line 725
+__57563_58___os) + ((__57563_58___os->__vptr)[(-3)]))) : ((struct _ZSt9basic_iosIcSt11char_traitsIcEE *)0)))) , (((_ZNSt11char_traitsIcE11eq_int_typeEii((-1), (((struct _ZSt9basic_iosIcSt11char_traitsIcEE *)__T29)->__fill_))) ? ((void)((((struct _ZSt9basic_iosIcSt11char_traitsIcEE *)__T29)->__fill_) 
+#line 725
+= ((_ZNSt9basic_iosIcSt11char_traitsIcEE8int_typeE)(_ZNKSt9basic_iosIcSt11char_traitsIcEE5widenEc(__T29, ((char)32)))))) : ((void)0)) , ((_ZNSt9basic_iosIcSt11char_traitsIcEE9char_typeE)(((struct _ZSt9basic_iosIcSt11char_traitsIcEE *)__T29)->__fill_))))))) , (&__T24)))) , (((((__T32.next) = 
+#line 725
+__curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T32))) , ((__T32.kind) = ((unsigned char)6U))) , ((__T31 = ((char)((__T30->__sbuf_) == ((_ZNSt19ostreambuf_iteratorIcSt11char_traitsIcEE14streambuf_typeE *)0)))) , ((__curr_eh_stack_entry = (__T32.next)) , __T31)))) { auto struct 
+#line 725
+_ZSt9basic_iosIcSt11char_traitsIcEE *__T33;
+#line 733
+{ __T33 = ((struct _ZSt9basic_iosIcSt11char_traitsIcEE *)(((char *)__57563_58___os) + ((__57563_58___os->__vptr)[(-3)]))); { { _ZNSt8ios_base5clearEj((&(__T33->__b_St8ios_base)), (((__T33->__b_St8ios_base).__rdstate_) | 0x5U)); } } } }
+} __eh_curr_region = ((unsigned short)65535U);
+
+_ZNSo6sentryD1Ev((&__57570_57___s)); }
+
+else  {  __eh_curr_region = ((unsigned short)1U); __exception_caught();
+_ZNSt8ios_base33__set_badbit_and_consider_rethrowEv((&(((struct _ZSt9basic_iosIcSt11char_traitsIcEE *)(((char *)__57563_58___os) + ((__57563_58___os->__vptr)[(-3)])))->__b_St8ios_base))); __eh_curr_region = ((unsigned short)65535U);
+__destroy_exception_object(); } __curr_eh_stack_entry = (__T20.next); } {
+
+__T22 = __57563_58___os; { __eh_curr_region = (((__T23.variant).function).saved_region_number); __curr_eh_stack_entry = (__T23.next); return __T22; } }
+}
+#pragma weak _ZSt16__pad_and_outputIcSt11char_traitsIcEESt19ostreambuf_iteratorIT_T0_ES5_PKS3_S7_S7_RSt8ios_baseS3_
+#line 1410 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\locale"
+struct _ZSt19ostreambuf_iteratorIcSt11char_traitsIcEE _ZSt16__pad_and_outputIcSt11char_traitsIcEESt19ostreambuf_iteratorIT_T0_ES5_PKS3_S7_S7_RSt8ios_baseS3_( struct _ZSt19ostreambuf_iteratorIcSt11char_traitsIcEE __51457_55___s, 
+const char *__51458_32___ob,  const char *__51458_52___op,  const char *__51458_72___oe, 
+struct _ZSt8ios_base *__51459_28___iob,  char __51459_42___fl)
+{ static struct __C2 __T34[1] = {{((unsigned long)_ZNSsD1Ev),((unsigned short)0U),((unsigned short)65535U),((unsigned char)0U)}}; auto struct _ZSt19ostreambuf_iteratorIcSt11char_traitsIcEE __T35; auto struct _ZSt15basic_streambufIcSt11char_traitsIcEE *__T36; auto struct 
+#line 1413
+_ZSt19ostreambuf_iteratorIcSt11char_traitsIcEE __T37; auto void *__T38[1]; auto struct _ZSt15basic_streambufIcSt11char_traitsIcEE *__T39; auto struct _ZSt19ostreambuf_iteratorIcSt11char_traitsIcEE __T40; auto _ZSt10streamsize __T41; auto struct _ZSt19ostreambuf_iteratorIcSt11char_traitsIcEE __T42; 
+#line 1413
+auto struct an_eh_stack_entry __T43;
+
+
+auto _ZSt10streamsize __51463_16___sz;
+auto _ZSt10streamsize __51464_16___ns;
+
+
+
+
+auto _ZSt10streamsize __51469_16___np;
+#line 1413
+(__T43.next) = __curr_eh_stack_entry; __curr_eh_stack_entry = (&__T43); (__T43.kind) = ((unsigned char)1U); (((__T43.variant).function).regions) = (__T34); (((__T43.variant).function).obj_table) = (__T38); (((__T43.variant).function).saved_region_number) = __eh_curr_region; __eh_curr_region = ((
+#line 1413
+unsigned short)65535U);
+if ((__51457_55___s.__sbuf_) == ((_ZNSt19ostreambuf_iteratorIcSt11char_traitsIcEE14streambuf_typeE *)0)) { {
+__T35 = ((*(struct _ZSt19ostreambuf_iteratorIcSt11char_traitsIcEE *)&__51457_55___s)); { __eh_curr_region = (((__T43.variant).function).saved_region_number); __curr_eh_stack_entry = (__T43.next); return __T35; } } }
+__51463_16___sz = (__51458_72___oe - __51458_32___ob);
+__51464_16___ns = (((const struct _ZSt8ios_base *)__51459_28___iob)->__width_);
+if (__51464_16___ns > __51463_16___sz) {
+__51464_16___ns -= __51463_16___sz; } else  {
+
+__51464_16___ns = 0; }
+__51469_16___np = (__51458_52___op - __51458_32___ob);
+if (__51469_16___np > 0)
+{
+if (((__T36 = (__51457_55___s.__sbuf_)) , ((*((_ZSt10streamsize (**)(struct _ZSt15basic_streambufIcSt11char_traitsIcEE *const, const _ZNSt15basic_streambufIcSt11char_traitsIcEE9char_typeE *__s, _ZSt10streamsize __n))((__T36->__vptr) + 12)))(__T36, __51458_32___ob, __51469_16___np))) != 
+#line 1425
+__51469_16___np)
+{
+(__51457_55___s.__sbuf_) = ((_ZNSt19ostreambuf_iteratorIcSt11char_traitsIcEE14streambuf_typeE *)0); {
+__T37 = ((*(struct _ZSt19ostreambuf_iteratorIcSt11char_traitsIcEE *)&__51457_55___s)); { __eh_curr_region = (((__T43.variant).function).saved_region_number); __curr_eh_stack_entry = (__T43.next); return __T37; } }
+}
+}
+if (__51464_16___ns > 0)
+{ auto _ZNSs9size_typeE __T44; auto struct an_eh_stack_entry __T45; auto struct _ZSaIcE *__T46; auto struct an_eh_stack_entry __T47; auto struct _ZSt22__compressed_pair_elemISaIcELi1ELb1EE *__T48; auto struct an_eh_stack_entry __T49; auto const struct _ZNSs5__repE *__T50; auto struct 
+#line 1432
+an_eh_stack_entry __T51; auto char __T52; auto struct an_eh_stack_entry __T53; auto struct an_eh_stack_entry __T54; auto const struct _ZNSs5__repE *__T55; auto struct an_eh_stack_entry __T56; auto _ZNSs13const_pointerE __T57; auto struct an_eh_stack_entry __T58; auto struct an_eh_stack_entry __T59; 
+#line 1432
+auto const struct _ZNSs5__repE *__T60; auto struct an_eh_stack_entry __T61; auto _ZNSt11conditionalILb0ENSt14pointer_traitsIPKcE5__natES1_E4typeE *__T62; auto _ZNSt11conditionalILb0ENSt14pointer_traitsIPKcE5__natES1_E4typeE *__T63; auto struct an_eh_stack_entry __T64; auto 
+#line 1432
+_ZNSt11conditionalILb0ENSt14pointer_traitsIPKcE5__natES1_E4typeE *__T65; auto struct an_eh_stack_entry __T66; auto _ZNSt11conditionalILb0ENSt14pointer_traitsIPKcE5__natES1_E4typeE *__T67; auto struct an_eh_stack_entry __T68; auto _ZNSs13const_pointerE __T69; auto struct an_eh_stack_entry __T70; auto 
+#line 1432
+const char *__T71; auto struct an_eh_stack_entry __T72; auto struct _ZSt15basic_streambufIcSt11char_traitsIcEE *__T73; auto const _ZNSt15basic_streambufIcSt11char_traitsIcEE9char_typeE *__T74; auto _ZSt10streamsize __T75; auto struct an_eh_stack_entry __T76; auto struct an_eh_stack_entry __T77; auto 
+#line 1432
+struct an_eh_stack_entry __T78; auto struct an_eh_stack_entry __T79; auto struct _ZSaIcE *__T80; auto struct an_eh_stack_entry __T81; auto struct _ZSaIcE *__T82; auto struct an_eh_stack_entry __T83; auto struct an_eh_stack_entry __T84; auto struct _ZNSs5__repE *__T85; auto struct an_eh_stack_entry 
+#line 1432
+__T86; auto _ZNSs7pointerE __T87; auto struct an_eh_stack_entry __T88; auto struct an_eh_stack_entry __T89; auto struct an_eh_stack_entry __T90; auto unsigned __T91; auto struct an_eh_stack_entry __T92; auto _ZNSt16allocator_traitsISaIcEE14allocator_typeE *__T93; auto 
+#line 1432
+_ZNSt16allocator_traitsISaIcEE7pointerE __T94; auto _ZNSt16allocator_traitsISaIcEE9size_typeE __T95; auto struct an_eh_stack_entry __T96; auto struct an_eh_stack_entry __T97; auto struct an_eh_stack_entry __T98;
+auto struct _ZSs __51480_39___sp; { __T44 = ((_ZNSs9size_typeE)__51464_16___ns); { { _ZNSt22__compressed_pair_elemINSs5__repELi0ELb0EEC2Ev((&((__51480_39___sp.__r_).__b_St22__compressed_pair_elemINSs5__repELi0ELb0EE))); { __T48 = ((((((__T47.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = 
+#line 1433
+(&__T47))) , ((__T47.kind) = ((unsigned char)6U))) , ((__T46 = (((((__T45.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T45))) , ((__T45.kind) = ((unsigned char)6U))) , ((__curr_eh_stack_entry = (__T45.next)) , ((struct _ZSaIcE *)((struct _ZSt22__compressed_pair_elemISaIcELi1ELb1EE *
+#line 1433
+)(&(__51480_39___sp.__r_))))))) , __T46)) , ((__curr_eh_stack_entry = (__T47.next)) , ((struct _ZSt22__compressed_pair_elemISaIcELi1ELb1EE *)(&(__51480_39___sp.__r_))))); __T48; } &(__51480_39___sp.__r_); } _ZNSs6__initEjc((&__51480_39___sp), __T44, __51459_42___fl); &__51480_39___sp; } } ((__T38)[0U
+#line 1433
+]) = ((void *)(&__51480_39___sp)); __eh_curr_region = ((unsigned short)0U);
+if (((((__T73 = (__51457_55___s.__sbuf_)) , (__T74 = (((((__T72.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T72))) , ((__T72.kind) = ((unsigned char)6U))) , ((__T71 = (_ZSt16__to_raw_pointerIKcEPT_S2_((((((__T70.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T70))) , 
+#line 1434
+((__T70.kind) = ((unsigned char)6U))) , ((__T69 = ((((((__T53.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T53))) , ((__T53.kind) = ((unsigned char)6U))) , ((__T52 = ((char)((((unsigned)(((((((((__T51.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T51))) , ((__T51.
+#line 1434
+kind) = ((unsigned char)6U))) , ((__T50 = (((((__T49.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T49))) , ((__T49.kind) = ((unsigned char)6U))) , ((__curr_eh_stack_entry = (__T49.next)) , ((const struct _ZNSs5__repE *)&(((((*(const struct _ZSs *)&__51480_39___sp)).__r_).
+#line 1434
+__b_St22__compressed_pair_elemINSs5__repELi0ELb0EE).__value_))))) , ((__curr_eh_stack_entry = (__T51.next)) , __T50)))->__T2).__s).__T1).__size_)) & 1U) != 0U))) , ((__curr_eh_stack_entry = (__T53.next)) , __T52))) ? (((((__T58.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T58))) , (
+#line 1434
+(__T58.kind) = ((unsigned char)6U))) , ((__T57 = ((_ZNSs13const_pointerE)((((((((__T56.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T56))) , ((__T56.kind) = ((unsigned char)6U))) , ((__T55 = (((((__T54.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T54))) , ((__T54.
+#line 1434
+kind) = ((unsigned char)6U))) , ((__curr_eh_stack_entry = (__T54.next)) , ((const struct _ZNSs5__repE *)&(((((*(const struct _ZSs *)&__51480_39___sp)).__r_).__b_St22__compressed_pair_elemINSs5__repELi0ELb0EE).__value_))))) , ((__curr_eh_stack_entry = (__T56.next)) , __T55)))->
+#line 1434
+__T2).__l).__data_))) , ((__curr_eh_stack_entry = (__T58.next)) , __T57))) : (((((__T68.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T68))) , ((__T68.kind) = ((unsigned char)6U))) , ((__T67 = ((__T62 = ((((((((((__T61.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T61
+#line 1434
+))) , ((__T61.kind) = ((unsigned char)6U))) , ((__T60 = (((((__T59.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T59))) , ((__T59.kind) = ((unsigned char)6U))) , ((__curr_eh_stack_entry = (__T59.next)) , ((const struct _ZNSs5__repE *)&(((((*(const struct _ZSs *)&__51480_39___sp)).
+#line 1434
+__r_).__b_St22__compressed_pair_elemINSs5__repELi0ELb0EE).__value_))))) , ((__curr_eh_stack_entry = (__T61.next)) , __T60)))->__T2).__s).__data_)) + 0)) , (((((__T66.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T66))) , ((__T66.kind) = ((unsigned char)6U))) , ((__T65 = (((((__T64.
+#line 1434
+next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T64))) , ((__T64.kind) = ((unsigned char)6U))) , ((__T63 = ((_ZNSt11conditionalILb0ENSt14pointer_traitsIPKcE5__natES1_E4typeE *)((char *)((const volatile char *)__T62)))) , ((__curr_eh_stack_entry = (__T64.next)) , __T63)))) , ((
+#line 1434
+__curr_eh_stack_entry = (__T66.next)) , __T65))))) , ((__curr_eh_stack_entry = (__T68.next)) , __T67))))) , ((__curr_eh_stack_entry = (__T70.next)) , __T69)))))) , ((__curr_eh_stack_entry = (__T72.next)) , __T71))))) , (__T75 = __51464_16___ns)) , ((*((_ZSt10streamsize (**)(struct 
+#line 1434
+_ZSt15basic_streambufIcSt11char_traitsIcEE *const, const _ZNSt15basic_streambufIcSt11char_traitsIcEE9char_typeE *__s, _ZSt10streamsize __n))((__T73->__vptr) + 12)))(__T73, __T74, __T75))) != __51464_16___ns)
+{ auto struct _ZSt19ostreambuf_iteratorIcSt11char_traitsIcEE __T99; auto struct an_eh_stack_entry __T100; auto const struct _ZNSs5__repE *__T101; auto struct an_eh_stack_entry __T102; auto char __T103; auto struct an_eh_stack_entry __T104; auto struct _ZSaIcE *__T105; auto struct an_eh_stack_entry 
+#line 1435
+__T106; auto struct _ZSaIcE *__T107; auto struct an_eh_stack_entry __T108; auto struct _ZSaIcE *__T109; auto struct an_eh_stack_entry __T110; auto struct an_eh_stack_entry __T111; auto struct _ZNSs5__repE *__T112; auto struct an_eh_stack_entry __T113; auto _ZNSs7pointerE __T114; auto struct 
+#line 1435
+an_eh_stack_entry __T115; auto struct an_eh_stack_entry __T116; auto const struct _ZNSs5__repE *__T117; auto struct an_eh_stack_entry __T118; auto unsigned __T119; auto struct an_eh_stack_entry __T120; auto _ZNSt16allocator_traitsISaIcEE14allocator_typeE *__T121; auto 
+#line 1435
+_ZNSt16allocator_traitsISaIcEE7pointerE __T122; auto _ZNSt16allocator_traitsISaIcEE9size_typeE __T123; auto struct an_eh_stack_entry __T124; auto struct an_eh_stack_entry __T125; auto struct an_eh_stack_entry __T126;
+(__51457_55___s.__sbuf_) = ((_ZNSt19ostreambuf_iteratorIcSt11char_traitsIcEE14streambuf_typeE *)0); {
+__T99 = ((*(struct _ZSt19ostreambuf_iteratorIcSt11char_traitsIcEE *)&__51457_55___s)); __eh_curr_region = ((unsigned short)65535U); { (__T126.next) = __curr_eh_stack_entry; __curr_eh_stack_entry = (&__T126); (__T126.kind) = ((unsigned char)6U); if (((((__T104.next) = __curr_eh_stack_entry) , (
+#line 1437
+__curr_eh_stack_entry = (&__T104))) , ((__T104.kind) = ((unsigned char)6U))) , ((__T103 = ((char)((((unsigned)(((((((((__T102.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T102))) , ((__T102.kind) = ((unsigned char)6U))) , ((__T101 = (((((__T100.next) = __curr_eh_stack_entry) , (
+#line 1437
+__curr_eh_stack_entry = (&__T100))) , ((__T100.kind) = ((unsigned char)6U))) , ((__curr_eh_stack_entry = (__T100.next)) , ((const struct _ZNSs5__repE *)&(((((const struct _ZSs *)(&__51480_39___sp))->__r_).__b_St22__compressed_pair_elemINSs5__repELi0ELb0EE).__value_))))) , ((__curr_eh_stack_entry = (
+#line 1437
+__T102.next)) , __T101)))->__T2).__s).__T1).__size_)) & 1U) != 0U))) , ((__curr_eh_stack_entry = (__T104.next)) , __T103))) { { __T121 = (((((__T110.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T110))) , ((__T110.kind) = ((unsigned char)6U))) , ((__T109 = (((((__T108.next) = 
+#line 1437
+__curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T108))) , ((__T108.kind) = ((unsigned char)6U))) , ((__T107 = (((((__T106.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T106))) , ((__T106.kind) = ((unsigned char)6U))) , ((__T105 = ((struct _ZSaIcE *)((struct 
+#line 1437
+_ZSt22__compressed_pair_elemISaIcELi1ELb1EE *)(&(__51480_39___sp.__r_))))) , ((__curr_eh_stack_entry = (__T106.next)) , __T105)))) , ((__curr_eh_stack_entry = (__T108.next)) , __T107)))) , ((__curr_eh_stack_entry = (__T110.next)) , __T109))); __T122 = (((((__T115.next) = __curr_eh_stack_entry) , (
+#line 1437
+__curr_eh_stack_entry = (&__T115))) , ((__T115.kind) = ((unsigned char)6U))) , ((__T114 = ((((((((__T113.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T113))) , ((__T113.kind) = ((unsigned char)6U))) , ((__T112 = (((((__T111.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (
+#line 1437
+&__T111))) , ((__T111.kind) = ((unsigned char)6U))) , ((__curr_eh_stack_entry = (__T111.next)) , (&(((__51480_39___sp.__r_).__b_St22__compressed_pair_elemINSs5__repELi0ELb0EE).__value_))))) , ((__curr_eh_stack_entry = (__T113.next)) , __T112)))->__T2).__l).__data_)) , ((__curr_eh_stack_entry = (
+#line 1437
+__T115.next)) , __T114))); __T123 = (((((__T120.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T120))) , ((__T120.kind) = ((unsigned char)6U))) , ((__T119 = (((((((((__T118.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T118))) , ((__T118.kind) = ((unsigned char)6U))) , 
+#line 1437
+((__T117 = (((((__T116.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T116))) , ((__T116.kind) = ((unsigned char)6U))) , ((__curr_eh_stack_entry = (__T116.next)) , ((const struct _ZNSs5__repE *)&(((((const struct _ZSs *)(&__51480_39___sp))->__r_).
+#line 1437
+__b_St22__compressed_pair_elemINSs5__repELi0ELb0EE).__value_))))) , ((__curr_eh_stack_entry = (__T118.next)) , __T117)))->__T2).__l).__cap_) & 0xfffffffeU)) , ((__curr_eh_stack_entry = (__T120.next)) , __T119))); { (__T125.next) = __curr_eh_stack_entry; __curr_eh_stack_entry = (&__T125); (__T125.
+#line 1437
+kind) = ((unsigned char)6U); { (__T124.next) = __curr_eh_stack_entry; __curr_eh_stack_entry = (&__T124); (__T124.kind) = ((unsigned char)6U); { 0; { _ZdlPv(((void *)__T122)); } } { __curr_eh_stack_entry = (__T124.next); } } { __curr_eh_stack_entry = (__T125.next); } } } } { __curr_eh_stack_entry = (
+#line 1437
+__T126.next); (void *)(&__51480_39___sp); } } { __eh_curr_region = (((__T43.variant).function).saved_region_number); __curr_eh_stack_entry = (__T43.next); return __T99; } }
+} __eh_curr_region = ((unsigned short)65535U);
+{ (__T98.next) = __curr_eh_stack_entry; __curr_eh_stack_entry = (&__T98); (__T98.kind) = ((unsigned char)6U); if (((((__T78.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T78))) , ((__T78.kind) = ((unsigned char)6U))) , ((__T52 = ((char)((((unsigned)(((((((((__T77.next) = 
+#line 1439
+__curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T77))) , ((__T77.kind) = ((unsigned char)6U))) , ((__T60 = (((((__T76.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T76))) , ((__T76.kind) = ((unsigned char)6U))) , ((__curr_eh_stack_entry = (__T76.next)) , ((const struct 
+#line 1439
+_ZNSs5__repE *)&(((((const struct _ZSs *)(&__51480_39___sp))->__r_).__b_St22__compressed_pair_elemINSs5__repELi0ELb0EE).__value_))))) , ((__curr_eh_stack_entry = (__T77.next)) , __T60)))->__T2).__s).__T1).__size_)) & 1U) != 0U))) , ((__curr_eh_stack_entry = (__T78.next)) , __T52))) { { __T93 = (((((
+#line 1439
+__T83.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T83))) , ((__T83.kind) = ((unsigned char)6U))) , ((__T82 = (((((__T81.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T81))) , ((__T81.kind) = ((unsigned char)6U))) , ((__T80 = (((((__T79.next) = __curr_eh_stack_entry) 
+#line 1439
+, (__curr_eh_stack_entry = (&__T79))) , ((__T79.kind) = ((unsigned char)6U))) , ((__T46 = ((struct _ZSaIcE *)((struct _ZSt22__compressed_pair_elemISaIcELi1ELb1EE *)(&(__51480_39___sp.__r_))))) , ((__curr_eh_stack_entry = (__T79.next)) , __T46)))) , ((__curr_eh_stack_entry = (__T81.next)) , __T80)))) 
+#line 1439
+, ((__curr_eh_stack_entry = (__T83.next)) , __T82))); __T94 = (((((__T88.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T88))) , ((__T88.kind) = ((unsigned char)6U))) , ((__T87 = ((((((((__T86.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T86))) , ((__T86.kind) = ((
+#line 1439
+unsigned char)6U))) , ((__T85 = (((((__T84.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T84))) , ((__T84.kind) = ((unsigned char)6U))) , ((__curr_eh_stack_entry = (__T84.next)) , (&(((__51480_39___sp.__r_).__b_St22__compressed_pair_elemINSs5__repELi0ELb0EE).__value_))))) , ((
+#line 1439
+__curr_eh_stack_entry = (__T86.next)) , __T85)))->__T2).__l).__data_)) , ((__curr_eh_stack_entry = (__T88.next)) , __T87))); __T95 = (((((__T92.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T92))) , ((__T92.kind) = ((unsigned char)6U))) , ((__T91 = (((((((((__T90.next) = 
+#line 1439
+__curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T90))) , ((__T90.kind) = ((unsigned char)6U))) , ((__T55 = (((((__T89.next) = __curr_eh_stack_entry) , (__curr_eh_stack_entry = (&__T89))) , ((__T89.kind) = ((unsigned char)6U))) , ((__curr_eh_stack_entry = (__T89.next)) , ((const struct 
+#line 1439
+_ZNSs5__repE *)&(((((const struct _ZSs *)(&__51480_39___sp))->__r_).__b_St22__compressed_pair_elemINSs5__repELi0ELb0EE).__value_))))) , ((__curr_eh_stack_entry = (__T90.next)) , __T55)))->__T2).__l).__cap_) & 0xfffffffeU)) , ((__curr_eh_stack_entry = (__T92.next)) , __T91))); { (__T97.next) = 
+#line 1439
+__curr_eh_stack_entry; __curr_eh_stack_entry = (&__T97); (__T97.kind) = ((unsigned char)6U); { (__T96.next) = __curr_eh_stack_entry; __curr_eh_stack_entry = (&__T96); (__T96.kind) = ((unsigned char)6U); { 0; { _ZdlPv(((void *)__T94)); } } { __curr_eh_stack_entry = (__T96.next); } } { 
+#line 1439
+__curr_eh_stack_entry = (__T97.next); } } } } { __curr_eh_stack_entry = (__T98.next); (void *)(&__51480_39___sp); } } }
+__51469_16___np = (__51458_72___oe - __51458_52___op);
+if (__51469_16___np > 0)
+{
+if (((__T39 = (__51457_55___s.__sbuf_)) , ((*((_ZSt10streamsize (**)(struct _ZSt15basic_streambufIcSt11char_traitsIcEE *const, const _ZNSt15basic_streambufIcSt11char_traitsIcEE9char_typeE *__s, _ZSt10streamsize __n))((__T39->__vptr) + 12)))(__T39, __51458_52___op, __51469_16___np))) != 
+#line 1443
+__51469_16___np)
+{
+(__51457_55___s.__sbuf_) = ((_ZNSt19ostreambuf_iteratorIcSt11char_traitsIcEE14streambuf_typeE *)0); {
+__T40 = ((*(struct _ZSt19ostreambuf_iteratorIcSt11char_traitsIcEE *)&__51457_55___s)); { __eh_curr_region = (((__T43.variant).function).saved_region_number); __curr_eh_stack_entry = (__T43.next); return __T40; } }
+}
+}
+{ __T41 = (__51459_28___iob->__width_); (__51459_28___iob->__width_) = 0; __T41; } {
+__T42 = ((*(struct _ZSt19ostreambuf_iteratorIcSt11char_traitsIcEE *)&__51457_55___s)); { __eh_curr_region = (((__T43.variant).function).saved_region_number); __curr_eh_stack_entry = (__T43.next); return __T42; } }
+}
+#pragma weak _ZSt16__to_raw_pointerIKcEPT_S2_
+#line 1109 "C:\\Program Files\\TASKING\\TriCore v6.3r1\\carm\\include.cxx\\memory"
+inline const char *_ZSt16__to_raw_pointerIKcEPT_S2_( const char *__21561_23___p)
+{ auto const char *__T127; auto struct an_eh_stack_entry __T128;  (__T128.next) = __curr_eh_stack_entry; __curr_eh_stack_entry = (&__T128); (__T128.kind) = ((unsigned char)6U); {
+__T127 = __21561_23___p; { __curr_eh_stack_entry = (__T128.next); return __T127; } }
+}

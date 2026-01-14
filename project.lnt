@@ -1,0 +1,16 @@
++libclass(angle)
+
+-env_push
+-dVSOMEIP_INTERNAL_SUPPRESS_DEPRECATED
+-dVSOMEIP_VERSION{"\"3.5.1\""}
+-dvsomeip3_cfg_EXPORTS
+-i"D:/Users/JColapietro/YouTube/PCLP_series/PCLP_project/vsomeip/interface"
+-i"D:/Users/JColapietro/YouTube/PCLP_series/PCLP_project/vsomeip/build"
+-i"C:/libs/boost_1_75_0"
+-dVSOMEIP_BOOST_VERSION{"107500"}
+-dWITHOUT_SYSTEMD
+-dNDEBUG
+-std=c++17
+"D:\Users\JColapietro\YouTube\PCLP_series\PCLP_project\vsomeip\implementation\configuration\src\configuration_impl.cpp"
+-env_pop
+

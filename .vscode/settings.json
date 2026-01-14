@@ -1,0 +1,57 @@
+{
+    "pclp_exe": "D:\\Users\\JColapietro\\YouTube\\PCLP_series\\PCLP_project\\run_lint_task.bat",
+    "vscode_lnt": "D:\\Users\\JColapietro\\YouTube\\PCLP_series\\PCLP_project\\vscode.lnt",
+    "terminal.integrated.scrollback": 3000,
+    "win_command": "| ForEach-Object { '{0}.{1}' -f ++$i, $_ -replace '\\.:', '.${file}:'}",
+    "mac_command": "| nl -w1 -s. | sed 's#\\.:#.${file}:#g'",
+    "linux_command": "| nl -w1 -s. | sed 's#\\.:#.${file}:#g'",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "github-enterprise.uri": "https://github1.vg.vector.int",
+    "cSpell.words": [
+        "Aktiengesellschaft",
+        "Bayerische",
+        "Colapietro",
+        "configurarion",
+        "DCMAKE",
+        "enabeled",
+        "explicitely",
+        "misra",
+        "Motoren",
+        "mpsl",
+        "PCLP",
+        "pclpview",
+        "popd",
+        "pushd",
+        "requ",
+        "rreq",
+        "rresp",
+        "vsomeip",
+        "Werke",
+        "XVCJ"
+    ]
+}

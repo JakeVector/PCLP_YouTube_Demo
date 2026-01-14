@@ -1,0 +1,51 @@
+{
+"version": "2.0.0",
+"tasks": [
+{ "icon": {"color": "terminal.ansiWhite","id": "search"},
+"presentation": {
+"reveal": "silent",
+"revealProblems": "always",
+"close": false,
+"clear": true,
+"panel": "dedicated",
+"showReuseMessage": false
+},
+"runOptions": {"reevaluateOnRerun": true},
+"label": "PC-lint Plus Task",
+"type": "shell",
+"detail": "Analyze current file with PC-lint Plus.",
+"windows":{
+  "command": "${config:pclp_exe} ${config:vscode_lnt} | ForEach-Object { '{0}.{1}' -f ++$i, ( ($_ -replace '^\\.\\\\', '${workspaceFolder}\\\\') -replace '\\.:', '.${file}:' ) }",
+  "options": { "shell": { "executable": "powershell" } }
+},
+"osx":{
+"command": "${config:pclp_exe} ${config:vscode_lnt} ${config:mac_command}"
+},
+"linux":{
+"command": "${config:pclp_exe} ${config:vscode_lnt} ${config:linux_command}"
+},
+"problemMatcher": {
+  "owner": "C/C++",
+  "fileLocation": [
+    "absolute"
+  ],
+  "source": "ID:",
+  "pattern": [
+    {
+      // first line: optional index then Windows absolute (C:\...) or relative (.\...) path -> we expect absolute now
+      "regexp": "^\\s*(?:\\d+\\.\\s*)?((?:[A-Za-z]:\\\\|/).*)$",
+      "file": 1
+    },
+    {
+      // second line: "<index>. <line>  <severity> <code>: <message>"
+      "regexp": "^\\s*\\d+\\.\\s*(\\d+)\\s+(warning|error|info|note|supplemental)\\s+(\\d+):\\s*(.*)$",
+      "line": 1,
+      "severity": 2,
+      "code": 3,
+      "message": 4
+    }
+  ]
+}
+}
+]
+}

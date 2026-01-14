@@ -1,0 +1,19 @@
+// Increase number of threads to speed up analysis
+-max_threads=15
+
+// Message suppressions
+-e769
+
+// Coding standards
+-i"%PCLP_DIR%\lnt"
+au-misra-cpp2.lnt
+au-cwe.lnt
+
+// Output formatting
+-os[lint_output\lint_results.html] env-html.lnt
+
+// Metrics
++metric_report(scope=all, format=json, filename=view_json\%PROJECT_CONFIG%\metrics.json)
++metric(function.cyclomatic_complexity < 5)
+
++stack(&file=lint_output\stack.txt)

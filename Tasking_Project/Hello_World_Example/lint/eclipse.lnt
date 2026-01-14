@@ -1,0 +1,4 @@
+-"format=%f:%l: %t: %t %n: %m" // formatting options
+-width=0 // no line wrapping
++flm // lock format
++ffn // always emit absolute paths

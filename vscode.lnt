@@ -1,0 +1,7 @@
+// See https://go.microsoft.com/fwlink/?LinkId=733558
+// for documentation on the tasks.json format
+// Options for Visual Studio Code compatibility
+-width=0 // no line wrapping
+-h1 // set the message height to 1
+-"format=%f:%l:%C: %t: %t %n: %m" // match compiler message format
++ffn // always emit absolute paths
