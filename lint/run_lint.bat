@@ -23,9 +23,6 @@ if "%PROJECT_CONFIG%"=="json" (
 
     REM Run PCLP with JSON input
     %PCLP_DIR%\pclp64 co-gcc.lnt -server_data=.\view_json\json options.lnt project.lnt
-
-    REM Run PCLP View Agent to visualize results with JSON configuration
-    java -jar %PCLP_DIR%\..\pclpview-agent.jar -t eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjEwMCwiaWF0IjoxNzY4MzMyNjYxMzM4LCJyZWFkLW9ubHkiOjB9.QIGssiPo4UFOwKgDhGztL33XKyWQzjOMhajwpHTJ4vQ= http://localhost:8280 -- --name="View_Demo_Project_JSON" --dp="type=pclp,pclp_dir=D:\Users\JColapietro\YouTube\PCLP_series\PCLP_project\lint\view_json\json" --repository="type=scm_auto,path=D:\Users\JColapietro\YouTube\PCLP_series\PCLP_project\vsomeip\implementation"
 ) else if "%PROJECT_CONFIG%"=="imposter" (
     if exist imposter.commands del imposter.commands
     type nul > imposter.commands
@@ -40,7 +37,4 @@ if "%PROJECT_CONFIG%"=="json" (
     
     REM Run PCLP with imposter configuration
     %PCLP_DIR%\pclp64 co-gcc.lnt -server_data=.\view_json\imposter options.lnt project.lnt
-
-    REM Run PCLP View Agent to visualize results with imposter configuration
-    java -jar %PCLP_DIR%\..\pclpview-agent.jar -t eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjEwMCwiaWF0IjoxNzY4MzMyNjYxMzM4LCJyZWFkLW9ubHkiOjB9.QIGssiPo4UFOwKgDhGztL33XKyWQzjOMhajwpHTJ4vQ= http://localhost:8280 -- --name="View_Demo_Project_Imposter" --dp="type=pclp,pclp_dir=D:\Users\JColapietro\YouTube\PCLP_series\PCLP_project\lint\view_json\imposter" --repository="type=scm_auto,path=C:\VCAST\2025sp5\tutorial\cpp"
 )
